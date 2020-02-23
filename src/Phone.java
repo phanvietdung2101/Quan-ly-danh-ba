@@ -2,6 +2,9 @@ public class Phone {
     private String name;
     private String phone;
 
+    public Phone() {
+    }
+
     public Phone(String name, String phone) {
         this.name = name;
         this.phone = phone;
